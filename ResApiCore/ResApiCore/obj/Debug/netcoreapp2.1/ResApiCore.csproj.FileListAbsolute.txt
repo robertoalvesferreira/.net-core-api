@@ -1,0 +1,42 @@
+C:\Users\Roberto Filho\source\repos\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.csprojAssemblyReference.cache
+C:\Users\Roberto Filho\source\repos\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.csproj.CoreCompileInputs.cache
+C:\Users\Roberto Filho\source\repos\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.RazorAssemblyInfo.cache
+C:\Users\Roberto Filho\source\repos\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.RazorAssemblyInfo.cs
+C:\Users\Roberto Filho\source\repos\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.AssemblyInfoInputs.cache
+C:\Users\Roberto Filho\source\repos\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.AssemblyInfo.cs
+C:\Users\Roberto Filho\source\repos\ResApiCore\ResApiCore\bin\Debug\netcoreapp2.1\ResApiCore.deps.json
+C:\Users\Roberto Filho\source\repos\ResApiCore\ResApiCore\bin\Debug\netcoreapp2.1\ResApiCore.runtimeconfig.json
+C:\Users\Roberto Filho\source\repos\ResApiCore\ResApiCore\bin\Debug\netcoreapp2.1\ResApiCore.runtimeconfig.dev.json
+C:\Users\Roberto Filho\source\repos\ResApiCore\ResApiCore\bin\Debug\netcoreapp2.1\ResApiCore.dll
+C:\Users\Roberto Filho\source\repos\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.RazorTargetAssemblyInfo.cache
+C:\Users\Roberto Filho\source\repos\ResApiCore\ResApiCore\bin\Debug\netcoreapp2.1\ResApiCore.pdb
+C:\Users\Roberto Filho\source\repos\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.dll
+C:\Users\Roberto Filho\source\repos\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.pdb
+C:\WebApi .NETCORE\WebApi.NetCore\ResApiCore\ResApiCore\bin\Debug\netcoreapp2.1\ResApiCore.deps.json
+C:\WebApi .NETCORE\WebApi.NetCore\ResApiCore\ResApiCore\bin\Debug\netcoreapp2.1\ResApiCore.runtimeconfig.json
+C:\WebApi .NETCORE\WebApi.NetCore\ResApiCore\ResApiCore\bin\Debug\netcoreapp2.1\ResApiCore.runtimeconfig.dev.json
+C:\WebApi .NETCORE\WebApi.NetCore\ResApiCore\ResApiCore\bin\Debug\netcoreapp2.1\ResApiCore.dll
+C:\WebApi .NETCORE\WebApi.NetCore\ResApiCore\ResApiCore\bin\Debug\netcoreapp2.1\ResApiCore.pdb
+C:\WebApi .NETCORE\WebApi.NetCore\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.csprojAssemblyReference.cache
+C:\WebApi .NETCORE\WebApi.NetCore\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.csproj.CoreCompileInputs.cache
+C:\WebApi .NETCORE\WebApi.NetCore\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.RazorAssemblyInfo.cache
+C:\WebApi .NETCORE\WebApi.NetCore\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.RazorAssemblyInfo.cs
+C:\WebApi .NETCORE\WebApi.NetCore\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.AssemblyInfoInputs.cache
+C:\WebApi .NETCORE\WebApi.NetCore\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.AssemblyInfo.cs
+C:\WebApi .NETCORE\WebApi.NetCore\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.RazorTargetAssemblyInfo.cache
+C:\WebApi .NETCORE\WebApi.NetCore\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.dll
+C:\WebApi .NETCORE\WebApi.NetCore\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.pdb
+C:\24-01\.net-core-api\ResApiCore\ResApiCore\bin\Debug\netcoreapp2.1\ResApiCore.deps.json
+C:\24-01\.net-core-api\ResApiCore\ResApiCore\bin\Debug\netcoreapp2.1\ResApiCore.runtimeconfig.json
+C:\24-01\.net-core-api\ResApiCore\ResApiCore\bin\Debug\netcoreapp2.1\ResApiCore.runtimeconfig.dev.json
+C:\24-01\.net-core-api\ResApiCore\ResApiCore\bin\Debug\netcoreapp2.1\ResApiCore.dll
+C:\24-01\.net-core-api\ResApiCore\ResApiCore\bin\Debug\netcoreapp2.1\ResApiCore.pdb
+C:\24-01\.net-core-api\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.csprojAssemblyReference.cache
+C:\24-01\.net-core-api\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.csproj.CoreCompileInputs.cache
+C:\24-01\.net-core-api\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.RazorAssemblyInfo.cache
+C:\24-01\.net-core-api\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.RazorAssemblyInfo.cs
+C:\24-01\.net-core-api\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.AssemblyInfoInputs.cache
+C:\24-01\.net-core-api\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.AssemblyInfo.cs
+C:\24-01\.net-core-api\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.RazorTargetAssemblyInfo.cache
+C:\24-01\.net-core-api\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.dll
+C:\24-01\.net-core-api\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.pdb

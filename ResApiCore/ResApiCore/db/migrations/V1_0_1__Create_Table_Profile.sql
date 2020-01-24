@@ -1,0 +1,5 @@
+CREATE TABLE `profile`  (
+  `Id` INT(10) NOT NULL AUTO_INCREMENT,
+  `Name` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`Id`))
+ENGINE = InnoDB;
