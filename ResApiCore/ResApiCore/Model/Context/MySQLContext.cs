@@ -17,5 +17,7 @@ namespace ResApiCore.Model.Context
         public DbSet<Person> Persons {get; set;}
 
         public DbSet<Profile> Profile { get; set; }
+
+        public DbSet<User> User { get; set; }
     }
 }

@@ -13190,11 +13190,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\24-01\\.net-core-api\\ResApiCore\\ResApiCore\\ResApiCore.csproj",
+      "projectUniqueName": "C:\\api\\.net-core-api\\ResApiCore\\ResApiCore\\ResApiCore.csproj",
       "projectName": "ResApiCore",
-      "projectPath": "C:\\24-01\\.net-core-api\\ResApiCore\\ResApiCore\\ResApiCore.csproj",
+      "projectPath": "C:\\api\\.net-core-api\\ResApiCore\\ResApiCore\\ResApiCore.csproj",
       "packagesPath": "C:\\Users\\Roberto Filho\\.nuget\\packages\\",
-      "outputPath": "C:\\24-01\\.net-core-api\\ResApiCore\\ResApiCore\\obj\\",
+      "outputPath": "C:\\api\\.net-core-api\\ResApiCore\\ResApiCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",

@@ -40,3 +40,17 @@ C:\24-01\.net-core-api\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.
 C:\24-01\.net-core-api\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.RazorTargetAssemblyInfo.cache
 C:\24-01\.net-core-api\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.dll
 C:\24-01\.net-core-api\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.pdb
+C:\api\.net-core-api\ResApiCore\ResApiCore\bin\Debug\netcoreapp2.1\ResApiCore.deps.json
+C:\api\.net-core-api\ResApiCore\ResApiCore\bin\Debug\netcoreapp2.1\ResApiCore.runtimeconfig.json
+C:\api\.net-core-api\ResApiCore\ResApiCore\bin\Debug\netcoreapp2.1\ResApiCore.runtimeconfig.dev.json
+C:\api\.net-core-api\ResApiCore\ResApiCore\bin\Debug\netcoreapp2.1\ResApiCore.dll
+C:\api\.net-core-api\ResApiCore\ResApiCore\bin\Debug\netcoreapp2.1\ResApiCore.pdb
+C:\api\.net-core-api\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.csprojAssemblyReference.cache
+C:\api\.net-core-api\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.csproj.CoreCompileInputs.cache
+C:\api\.net-core-api\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.RazorAssemblyInfo.cache
+C:\api\.net-core-api\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.RazorAssemblyInfo.cs
+C:\api\.net-core-api\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.AssemblyInfoInputs.cache
+C:\api\.net-core-api\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.AssemblyInfo.cs
+C:\api\.net-core-api\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.RazorTargetAssemblyInfo.cache
+C:\api\.net-core-api\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.dll
+C:\api\.net-core-api\ResApiCore\ResApiCore\obj\Debug\netcoreapp2.1\ResApiCore.pdb

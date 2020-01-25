@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="db\dataset\V1_0_4__Create_Table_Users.sql" />
     <None Remove="db\script.sql" />
   </ItemGroup>
 
