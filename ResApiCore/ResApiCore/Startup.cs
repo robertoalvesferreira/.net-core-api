@@ -74,6 +74,7 @@ namespace ResApiCore
                 _configuration.GetSection("TokenConfiguration")
                 )
                 .Configure(tokenConfigurations);
+            services.AddSingleton(tokenConfigurations);
 
             services.AddAuthentication(authOptions =>
             {
