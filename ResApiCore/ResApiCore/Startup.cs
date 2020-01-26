@@ -19,6 +19,9 @@ using ResApiCore.Business.Implementattions;
 using ResApiCore.Repository.Generic;
 using Swashbuckle.AspNetCore.Swagger;
 using Microsoft.AspNetCore.Rewrite;
+using ResApiCore.Security.Configuration;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ResApiCore
 {
@@ -63,6 +66,39 @@ namespace ResApiCore
                     throw;
                 }
             }
+            var signingConfigurations = new SigningConfigurations();
+            services.AddSingleton(signingConfigurations);
+            var tokenConfigurations = new TokenConfiguration();
+
+            new ConfigureFromConfigurationOptions<TokenConfiguration>(
+                _configuration.GetSection("TokenConfiguration")
+                )
+                .Configure(tokenConfigurations);
+
+            services.AddAuthentication(authOptions =>
+            {
+                authOptions.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                authOptions.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(bearerOptions =>
+            {
+                var paramsValidation = bearerOptions.TokenValidationParameters;
+                paramsValidation.IssuerSigningKey = signingConfigurations.Key;
+                paramsValidation.ValidAudience = tokenConfigurations.Audience;
+                paramsValidation.ValidIssuer = tokenConfigurations.Issuer;
+
+                paramsValidation.ValidateIssuerSigningKey = true;
+                paramsValidation.ValidateLifetime = true;
+                paramsValidation.ClockSkew = TimeSpan.Zero;
+
+            });
+
+            services.AddAuthorization(auth =>
+            {
+                auth.AddPolicy("Bearer", new AuthorizationPolicyBuilder()
+                    .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
+                    .RequireAuthenticatedUser().Build());
+            });
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
             services.AddSwaggerGen(c =>
@@ -73,14 +109,17 @@ namespace ResApiCore
                     Version = "api",
                 });
             });
+
             services.AddScoped<IPersonBusiness, PersonBusinessImpl>();
             services.AddScoped<IPersonRepository, PersonRepositoryImpl>();
-
             services.AddScoped<IProfileBusiness, ProfileBusinessImpl>();
-            //services.AddScoped<IProfileRepository, ProfileRepository>();
+            services.AddScoped<ILoginBusiness, LoginBusinessImpl>();
 
+            services.AddScoped < IUserRepository, UserRepositoryImpl >();
+            //services.AddScoped<IProfileRepository, ProfileRepository>();
             services.AddScoped(typeof(IRepository<>), typeof(GenericRepository<>));
 
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

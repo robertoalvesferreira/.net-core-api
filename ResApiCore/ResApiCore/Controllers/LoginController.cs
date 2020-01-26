@@ -1,7 +1,7 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using ResApiCore.Business;
 using ResApiCore.Model;
+using System.Collections.Generic;
 
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -9,8 +9,10 @@ using ResApiCore.Model;
 namespace ResApiCore.Controllers
 {
     [Route("api/[controller]")]
+    [ApiController]
     public class LoginController : Controller
     {
+
         private ILoginBusiness _loginBusiness;
 
        
@@ -20,15 +22,20 @@ namespace ResApiCore.Controllers
             _loginBusiness = loginBusiness;
 
         }
-        [AllowAnonymous]
+        //[AllowAnonymous]
         [HttpPost]
-        public IActionResult Post([FromBody]User user)
+        public object Post([FromBody]User user)
         {
             if (user == null) return BadRequest();
             return _loginBusiness.FindByLogin(user);
         }
 
-    
+        [HttpGet]
+        public ActionResult<IEnumerable<string>> Get()
+        {
+            return new string[] { "value1", "value2" };
+        }
+
 
     }
 }
